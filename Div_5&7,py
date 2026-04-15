@@ -1,0 +1,9 @@
+in_val = 1000
+max_val = 2000
+total_sum = 0  
+
+for num in range(in_val, max_val + 1):
+    if num % 7 == 0 and num % 5 == 0:
+        total_sum += num  
+
+print("The total sum is:", total_sum)
